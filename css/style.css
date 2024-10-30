@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8em; /* 1rem = 1.2em*/
+}
+
+body {
+    background-color: rgb(196, 196, 196);
+}
+
+header {
+    background-image: rgb(175, 226, 226);
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: rgb(133, 129, 124);
+    padding: 60px 10px;
+}
+
+.about {
+    background-color: rgb(138, 207, 219);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(37, 43, 37, 0.78);
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.avatar {
+    display: block;
+    margin: 0 auto;
+}
+.articles {
+    padding: 20px 50px;
+}
+
+.content {
+  padding: 20px 50px;
+}
+
+.citate {
+    font-style: oblique;
+    font-style:Times New Roman;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: rgba(71, 65, 65, 0.78);
+    text-align: center;
+    margin-bottom: 9px;
+
+}
+
+.contacts{
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+
+.h3{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.78);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content2{
+    padding: 20px 50px;
+}
+
+p {  
+    margin-bottom: 20px; /
+}  
+
+h3 {  
+    padding-top: 5px;    
+    padding-bottom: 5px; 
+}  
+
+li{
+    margin-bottom: 5px;
+}
+.page-list li:last-child
+{
+    background-color:rgb(255, 0, 0)
+}
+h2::after
+{
+    content: "new";
+    font-size: 15px;
+    margin-left: 10px;
+    color:rgb(148, 90, 90)
+}
+
+.effect{
+    filter: brightness(0.8 ) contrast(1.2);
+    transition: transform 0.5s;
+}
+.ef {  
+    padding: 10px;  
+}  
+.ef:nth-child(odd) {  
+    background-color: #5889c2;
+}  
+.ef:nth-child(even) {  
+    background-color: #e0e0e0; 
+}  
+
+.ef:hover{
+    filter: brightness(0.8) contrast(1.2);  
+    transition: transform 0.5s;  
+}
+
+.ter::after{
+    content: "«Важно!»";
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #751a1a; /* Цвет ссылок */
+  }
+a:hover, a:focus {
+    color:rgb(170, 105, 143);
+    text-decoration: underline;
+}
+
+.otsyp{
+    word-spacing: 10px !important;
+    font-family: "Montserrat Alternates", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lang{
+     font-style: italic;          /*  Курсив */ 
+            color: blue;            /*  цвет текста */  
+            background-color: #f0f8ff; /* Светлый фон */  
+            border-left: 4px solid blue; /* Левая рамка для акцента */  
+            padding-left: 10px;     /* Отступ */  
+}
+
+footer .icon {  
+    width: 50px; /* Ширина иконки */  
+    height: 50px; /* Высота иконки */  
+    margin: 10px;  
+    display: inline-block;  
+    border: 2px solid #000000; /* Рамка для иконок */  
+    border-radius: 5px; /* Скругление углов */  
+    transition: transform 0.3s; /* эффект при наведении */  
+}  
+footer .icon:hover {  
+    transform: scale(1.1); /* Увеличение при наведении */  
+}  
+/* Соседний селектор для параграфов после изображений */  
+img + p {  
+    margin-top: 20px;  
+} 
+
+.reaf{
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.werx{
+font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.table-example {
+    /* border: 5px red solid; */
+    border-collapse: collapse;
+  }
+  .table-example td,
+  .table-example th {
+    border-bottom: black 1px solid;
+    padding: 10px 20px;
+  }
+  
+  .table-example td:nth-child(3) {
+    color:blue;
+    font-weight: bold;
+  }
+  
+  .table-example tr:nth-child(odd) {
+    background-color: aqua;
+  }
+  .table-example tr:nth-child(odd) td {
+    border-bottom: 1px solid blue;
+  }
+  
+  #form-example {
+    width: 300px;
+    margin: 20px auto;
+  }
+  #form-example input[type='submit'] {
+    background-color: aqua;
+    border: 1px darkblue solid;
+    padding: 7px 15px;
+    color:darkblue;
+    border-radius: 5px;
+  }
+  #form-example input[type='submit']:hover {
+    background-color: rgb(1, 204, 204);
+    border-radius: 7px;
+  }
+  #form-example input[type='submit']:disabled {
+    background-color: lightgrey;
+    color: gray;
+    border: 1px solid gray;
+  }
+  
+  #form-example input[type='text'],
+  #form-example input[type='password']{
+    background-color: lavender;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    padding: 7px;
+  }
+  
+  #form-example input[type='text']:hover,
+  #form-example input[type='password']:hover{
+    background-color: lavenderblush;
+  }
+
+.article-list li {  
+ padding:10px;  
+}  
+
+.otsyp:first{
+font-weight: bold; /* Делаем текст полужирным */  
+letter-spacing:40px; /* Добавляем разряженность между буквами */  
+/* Можно добавлять другие стили, например, цвет или размер шрифта */  
+}
+.table-Love_you{
+  font-size: 18px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 100;
+  font-style: normal;
+  border-collapse: collapse;
+  border: 4px solid red;
+}
+td, th {
+  border: 2px solid black;
+}
+
+tr:nth-child(even){
+  background-color: #2bc017;
+}
+
+td:first-child{
+  background-color: #f5f5f5;
+}
+tr:nth-child(5n){
+  background-color: #ff9900;
+  border-radius: 10px;
+}
+
+#contact-form input[type="text"]{
+  height: 20px;
+  width: 250px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: white solid 1px;
+  background-color: #eddfff;
+  border-radius: 10px;
+}
+
+#contact-form input[type="submit"]{
+  border: rgb(38, 184, 94) solid 1px;
+  background-color: #834a83;
+
+  
+}
+
+
+#contact-form input[type="submit"]:hover{
+  border: rgb(29, 173, 29) solid 1px;
+  background-color: #189e5f;
+  
+}
+
+.contact-form{
+  background-color: #821edf;
+  border-radius: 10px;
+}
+
+#contact-form input[type="reset"]{
+  border: rgb(38, 184, 94) solid 1px;
+  background-color: #834a83;
+}
+
+
+#contact-form input[type="reset"]:hover{
+  border: rgb(29, 173, 29) solid 1px;
+  background-color: #189e5f;
+}
+p::first-line
+{
+  letter-spacing: 3px;
+}
+/*
+
+1em - размер шрифта в браузере по умолчанию
+средний - 16px
+
+1em = 16px
+
+1rem - размер шрифта, который задан в теге html
+*

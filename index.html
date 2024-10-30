@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Джон Маккарти</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/ico" sizes="32x32" href="icons/favicon.ico">
+  <link rel="icon" type="image/ico" sizes="16x16" href="icons/favicon.ico">
+  <link rel="shortcut icon" href="icons/favicon.ico">
+
+  <meta property="og:title" content="Главная страница">
+  <meta property="og:site_name" content="Джон Маккарти">
+  <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+  <meta property="og:description" content="Сайт посвещён Джонну Маккарти">
+  <meta property="og:image" content="https://avatars.mds.yandex.net/get-entity_search/50912/853774822/S600xU_2x">
+
+
+
+
+  
+</head>
+
+<body>
+  <header>
+    <h1>Джон Маккарти</h1>
+    <img src="img/logo.svg" alt="логотип" width="50px">
+  </header>
+  <main>
+    <section class="about" id="about">
+      <h2>Джон Маккарти</h2>
+      <br><a href = "img/Джон Маккарти.jpg" download>
+        
+        <img class="avatar" src="img/Джон Маккарти.jpg" alt="Учёный" width="200px"><br>
+      </a>
+      <p style="text-align: center;">Джон Маккарти (4 сентября 1927, Бостон — 24 октября 2011, Стэнфорд) — американский информатик, автор термина «искусственный интеллект» (1956), изобретатель языка Лисп (1958), основоположник функционального программирования, лауреат премии Тьюринга (1971) за огромный вклад в область исследований искусственного интеллекта.</p>
+      <section class="citate" id="citate">
+     <blockquote>
+      «Моё хобби - не ходить на митинги в поддержку переработки отходов — экономит больше энергии, чем ваше увлечение этой переработкой.»-Джон Маккарти
+    </blockquote>
+    
+      </section>
+    </section>
+    <section class="articles" id="articles">
+      <h2>Интересные статьи</h2>
+      <ol>
+        <li style="font-size: 18px;" class="ef">
+          <a href="article1.html" >
+            Биография
+          </a>
+        </li>
+        <li style="font-size: 18px;" class="ef"><a href="article2.html" class="ter">
+          Создание термин искусственный интеллект</a>
+        </li>
+        <li style="font-size: 18px;" class="ef">
+          <a href = "article3.html" >Интересные факты</a>
+        <li style="font-size: 18px;" class="ef">
+          <a href="article4.html" >Награды</a>
+        </li>
+      </ol>
+    </section>
+    <section class="contactse">
+      <h2>Обратная связь</h2>
+      <form accation="contact-form" class="contact-form" id="contact-form" >
+        <div class="form_item" >
+          <label for="topic" style="font-style: italic; font-size: 14px; color:white">Тема обращения</label><br>
+          <select name="topic" id="topic" style="border: white solid 1px; background-color: #eddfff;">
+            <option value="1">Выберите тему</option>
+            <option value="2">Вопрос</option>
+            <option value="3">Баг</option>
+            <option value="4">Предложение</option>
+            <option value="5">Другое</option>
+          </select>
+        </div>
+        <div class="form_item" >
+          <label for="name"  style="font-style: italic; font-size: 14px; color:white">Имя:</label><br>
+          <input type="text" id="name" name="name" required placeholder="Введите ваше Имя">
+        </div>
+        <div class="form_item"  style="font-style: italic; font-size: 14px; color:white">
+          <label for="email" >Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Введите ваш Email" >
+        </div>
+        <div class="form_item">
+          <label for="message"  style="font-style: italic; font-size: 14px; color:white">Сообщение:</label><br>
+        <textarea type="message" id="message" name="message" rows="6" style="border: white solid 1px; background-color: #eddfff;" required></textarea>
+        </div>    
+        <div class="form_item"  style="font-style: italic; font-size: 14px; color:white">
+          <label for="email" >Ваш телефон</label><br>
+          <input type="tel" placeholder="Ваш телефон"  name="phone" required style="border: white solid 1px; background-color: #eddfff;  font-style: italic; font-size: 16px;">  
+        </div> 
+        <div class="form_item"  style="font-style: italic; font-size: 14px; color:white">
+          <label for="email" >Введите дату вашего обращения</label><br>
+          <input type="date" name="date" style="border: white solid 1px; background-color: #eddfff;  font-style: italic; font-size: 16px; color:#706f70">  
+        </div> 
+        <div class="form_item">
+          <input type="submit" value="Отправить" style="font-style: italic; font-size: 16px;">
+          <input type="reset" value="Очистить" style="font-style: italic; font-size: 16px; ">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Полевик Альбина, 2024</p>
+    <p>Вы также можете найти меня 
+      <a  
+      href="https://midis.ru/" 
+      target="_blank">здесь</a>
+    </p>
+    <a href="tel:+79993053422">+79993053422 </a>
+    <a href="mailto: shdahsd@mail.ru"> shdahsd@mail.ru</a>
+    <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%BA%D0%B0%D1%80%D1%82%D0%B8,_%D0%94%D0%B6%D0%BE%D0%BD" target="_blank"><img src="img/icon.svg" width="40px" class="icon"></a>
+ 
+  </footer>
+ 
+</body>
+
+</html>
